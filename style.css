@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+    transition: 0.3s;
+}
+
+
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px;
+
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+    z-index: 100;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 5px;
+
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Button */
+
+button {
+    padding: 10px 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #2563eb;
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+
+/* Cards */
+
+.card {
+    max-width: 700px;
+
+    margin: 20px auto;
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+/* Message */
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+
+    text-align: center;
+
+    background: #222;
+    color: white;
+}
+
+
+/* Dark Mode */
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark header {
+    background: #1e1e1e;
+}
+
+.dark nav a {
+    color: white;
+}
+
+.dark .card {
+    background: #1e1e1e;
+}
+
+.dark button {
+    background: #7c3aed;
+}

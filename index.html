@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>আমার ওয়েবসাইট</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>আমার সাইট</h2>
+
+        <nav>
+            <a href="#home">হোম</a>
+            <a href="#about">আমার সম্পর্কে</a>
+            <a href="#contact">যোগাযোগ</a>
+        </nav>
+
+        <button id="darkButton" onclick="toggleDarkMode()">
+            🌙 Dark
+        </button>
+    </header>
+
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <img src="photo.jpg" alt="আমার ছবি">
+
+            <h1>হ্যালো! 👋</h1>
+
+            <p>
+                এটি আমার প্রথম Offline Website।
+            </p>
+
+            <button onclick="showMessage()">
+                আমাকে চাপ দাও
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+
+        <section id="about" class="card">
+
+            <h2>আমার সম্পর্কে</h2>
+
+            <p>
+                আমি HTML, CSS এবং JavaScript শিখছি।
+                এই ওয়েবসাইটটি Android ফোনে Acode ব্যবহার করে তৈরি করেছি।
+            </p>
+
+        </section>
+
+
+        <section id="contact" class="card">
+
+            <h2>যোগাযোগ</h2>
+
+            <p>📧 OFFICIAL.OMARHASAN@GMAIL.COM</p>
+            <p>📱 01577293666</p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 আমার ওয়েবসাইট</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
